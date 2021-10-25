@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: с1хутао;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+html, body, main {
+	height: 100%;
+	font-family: с1хутао;
+}
+.first {
+	height: 100%;
+	background-image: url(../img/5.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.first p {
+	color:  white;
+}
+.tourism {
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 20px;
+}
+.text-container {
+	width: 40%;
+	margin: 15% 0 0 15%;
+}
+.first-line {
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	opacity: 0.5;
+	line-height: 1;
+}
